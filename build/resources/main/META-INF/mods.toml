@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="clientmodsync"
+version="1.0.0"
+displayName="Client Mod Sync"
+authors="YourName"
+description='''
+Sync missing client mods from server clientmod folder on login.
+'''
+
+[[dependencies.clientmodsync]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.clientmodsync]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

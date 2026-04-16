@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Sync missing client mods from server clientmod folder on login."
+  }
+}
